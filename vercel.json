@@ -2,8 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "public/github_details.html",
-      "permanent": true
+      "destination": "public/github_details.html"
     }
   ],
   "cleanUrls": true
