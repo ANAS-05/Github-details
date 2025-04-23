@@ -1,9 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/",
-      "destination": "/github_details.html",
-      "permanent": true
+      "destination": "/githubdetails.html"
     }
   ],
   "cleanUrls": true
