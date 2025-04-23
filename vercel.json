@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/githubdetails.html"
+      "destination": "/github_details.html"
     }
   ],
   "cleanUrls": true
