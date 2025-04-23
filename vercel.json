@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/github_details.html",
+      "permanent": true
+    }
+  ],
+  "cleanUrls": true
+}
