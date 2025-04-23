@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "public/github_details.html"
+      "destination": "https://github-details-eight.vercel.app/github_details"
     }
   ],
   "cleanUrls": true
