@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
+  margin: 1rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border: 1px solid #fff;
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: #121111;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 30px 2px rgba(151, 156, 244, 0.432); /* Subtle glow effect */
+}
+
+input {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #222;
+  color: #fff;
+  font-size: inherit;
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #9ba3ff; /* Subtle glow to improve accessibility */
+  background-color: #333;
+}
+
+table,
+td {
+  border: 1px solid white;
+  border-collapse: collapse; /*Ensures borders are shared, not doubled*/
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
